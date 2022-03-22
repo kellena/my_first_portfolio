@@ -2,6 +2,8 @@ html{
     display: flex;
 }
 
+/* most edits for the body give certain color attributes and align text */
+
 header{
     color: darkgreen;
     font-size: larger;
@@ -29,9 +31,42 @@ h2{
     text-align: left;
 }
 
+/* both of the settings below give dimensions for the images */
+
+.big_image{
+    height: 600px;
+    width: 600px;
+}
+
+.smaller_images{
+    height: 300px;
+    width: 300px;
+}
+
+/* the line below displays the images so they don't overlap and give max dimensions */
+
 img {
-    display: flex;
+    display: inline-flex;
     max-width: 40%;
     max-height: 40%;
    }
 
+/* the media queries below adjust font-size related to the size of the user's screen */
+
+   @media screen and (min-width: 480px) {
+       header, h1, h2, ul, p {
+           font-size: 16px;
+       }
+   }
+   
+   @media screen and (min-width: 481px) and (max-width: 899px) {
+       header, h1, h2, ul, p {
+           font-size: 24px;
+       }
+   }
+   
+   @media screen and (min-width: 900px) {
+       header, h1, h2, ul, p {
+           font-size: 32px;
+       }
+   }
