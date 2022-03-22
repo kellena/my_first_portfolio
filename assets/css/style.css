@@ -8,11 +8,13 @@ header{
 }
 
 ul{
+    list-style: none;
     display: inline;
     margin: auto;
 }
 
 nav ul{
+    list-style: none;
     float: right;
     display: inline;
 }
@@ -28,6 +30,8 @@ h2{
 }
 
 img {
+    display: flex;
     max-width: 40%;
     max-height: 40%;
    }
+
