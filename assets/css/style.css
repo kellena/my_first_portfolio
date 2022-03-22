@@ -1,3 +1,33 @@
-h1{
-    color: red;
+html{
+    display: flex;
 }
+
+header{
+    color: darkgreen;
+    font-size: larger;
+}
+
+ul{
+    display: inline;
+    margin: auto;
+}
+
+nav ul{
+    float: right;
+    display: inline;
+}
+
+h1{
+    color: aqua;
+    text-align: center;
+}
+
+h2{
+    color: green;
+    text-align: left;
+}
+
+img {
+    max-width: 40%;
+    max-height: 40%;
+   }
